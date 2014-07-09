@@ -1,6 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
+WINDOW: _maps\map_files\brainstation.dmm;code\modules\clothing\masks\gasmask.dm;code\modules\clothing\spacesuits\ninja.dm;code\modules\clothing\spacesuits\miscellaneous.dm;code\modules\events\mass_hallucination.dm;code\modules\events\wormholes.dm;code\modules\events\dust.dm;code\modules\events\carp_migration.dm;code\modules\events\brand_intelligence.dm;code\modules\events\anomaly.dm;code\modules\events\alien_infestation.dm;code\modules\power\apc.dm;code\modules\events\ninja.dm;code\modules\events\holiday\friday13th.dm;code\modules\events\holiday\xmas.dm;code\modules\mob\living\simple_animal\friendly\corgi.dm;code\modules\clothing\head\misc.dm;code\modules\clothing\clothing.dm;code\game\gamemodes\cult\cult_items.dm
+LAST_COMPILE_VERSION: 506.1247
+DIR: _maps _maps\map_files code code\game code\game\gamemodes code\game\gamemodes\cult code\modules code\modules\clothing code\modules\clothing\head code\modules\clothing\spacesuits code\modules\clothing\suits code\modules\events\holiday code\modules\mob code\modules\mob\living code\modules\mob\living\simple_animal code\modules\mob\living\simple_animal\friendly 
+FILE: code\modules\mob\living\simple_animal\friendly\corgi.dm
+LAST_COMPILE_TIME: 1404935904
 AUTO_FILE_DIR: OFF
 */
 // END_INTERNALS

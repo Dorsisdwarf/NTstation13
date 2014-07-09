@@ -321,6 +321,14 @@
 			desc = "Can actually be trusted to not run off on his own."
 			valid = 1
 
+		if(/obj/item/clothing/head/culthood)
+			name = "Dark Lord [real_name]"
+			speak = list("Ia!","AUUUUUUUU!")
+			emote_hear = list("emits a low rumbling")
+			emote_see = list("stares eerily into the distance", "undulates rhythmically")
+			desc = "Ia! Ia! [real_name] F'Tang!."
+			valid = 1
+
 	if(valid)
 		if(usr)
 			if(!usr.drop_item())
@@ -401,7 +409,7 @@
 					if(isturf(movement_target.loc) )
 						movement_target.attack_animal(src)
 					else if(ishuman(movement_target.loc) )
-						if(prob(20))
+						if(prob(40))
 							emote("stares at [movement_target.loc]'s [movement_target] with a sad puppy-face")
 
 		if(prob(1))
